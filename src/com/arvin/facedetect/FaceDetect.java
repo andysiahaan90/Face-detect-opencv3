@@ -58,7 +58,7 @@ public class FaceDetect extends javax.swing.JFrame {
 
         @Override
         public void run() {
-            /*  synchronized (this)*/ {
+             {
                 while (true) {
                     if (cap.isOpened()) {
                         try {
@@ -233,7 +233,6 @@ private void start() {
         thread = new thread();
         Thread t = new Thread(thread);
         t.setDaemon(true);
-        //thread.runnable = true;
         t.start();
 
     }
