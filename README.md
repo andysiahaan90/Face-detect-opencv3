@@ -1,4 +1,4 @@
 # Face-detect-opencv3
-Demo: https://www.youtube.com/watch?v=oH0ZkfFoeYU
+Demo: https://youtu.be/IFK8v8APWks
 
 Face Detection Using Haar Cascade Classifier
